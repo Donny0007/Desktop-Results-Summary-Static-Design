@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel = "stylesheet" type = "text/css" href="index.css" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  
+  <title>Frontend Mentor | Results summary component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <div class="chart">
+      <h3 style="margin: 25px 0 0 0;"><strong>Your Result</strong></h3>
+      <div class="avg_score">
+        <span class="score_obtained"><strong>76</strong></h3>
+        <p class="total_score">of 100</p>
+      </div>
+      <h3 style="color: white"><strong>Great</strong></h3>
+      <p>You scored higher than 65% of</p>
+      <p>the people who have taken</p>
+      <p>these tests.</p> 
+    </div>
+    <div class="summary">
+      <h3 style="margin: 25px 0 25px 25px;"><strong>Summary</strong></h3>
+      <div class="reaction">
+        <span class = "title"><i class = "glyphicon glyphicon-flash"></i>Reaction</span>
+        <span class = "title_score"><b>80</b> <p class="total_title_score">/ 100</p></span>
+      </div>
+      <div class="memory">
+        <span class="title"><i class = "glyphicon glyphicon-floppy-disk"></i>Memory</span>
+        <span class = "title_score"><b>92</b> <p class="total_title_score">/ 100</p></span>
+      </div>
+      <div class = "verbal">
+        <span class="title"><i class = "glyphicon glyphicon-comment"></i>Verbal</span>
+        <span class = "title_score"><b>61</b> <p class="total_title_score">/ 100</p></span>
+      </div>
+      <div class="visual">
+        <span class = "title"><i class="glyphicon glyphicon-eye-open"></i>Visual</span>
+        <span class = "title_score"><b>72</b> <p class="total_title_score">/ 100</p></span>
+      </div>
+      <button class="button_single">
+        Continue
+      </button>
+    </div>
+  </div>
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">Nimesh Bajracharya</a>.
+    </div>
+</body>
+</html>

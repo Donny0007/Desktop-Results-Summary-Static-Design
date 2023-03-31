@@ -1,0 +1,127 @@
+.container{
+    border-radius: 25px;
+    margin: 100px;
+    max-width: 602px;
+    font-family: Hanken Grotesk;
+}
+
+@font-face {
+    font-family: Hanken Grotesk;
+    src: url(assets/fonts/HankenGrotesk-VariableFont_wght.ttf);
+}
+
+.chart{
+    border-radius: 25px;
+    background-image: linear-gradient(#8432DF, #4743EF);
+    float: left;
+    text-align: center;
+    color: rgb(209, 225, 239);
+    height: 400px;
+    width: 300px;
+    margin-left: -15px;
+}
+
+.chart h3{
+    margin-top: 30px 0 0 20px;
+    color: lightgray;
+    text-align: center;
+}
+
+.chart p{
+    color: lightgray;
+    line-height: 0.6;
+}
+
+.score_obtained{
+    font-size: 62px;
+    color: white;
+}
+
+.avg_score{
+    background-image: linear-gradient(#27408E, #4743EF 70%);
+    border-radius: 50%;
+    width: 170px;
+    height: 170px;
+    position: relative;
+    margin: auto;
+    padding-top: 35px;
+    margin-top: 25px;
+}
+
+.avg_score p{
+    color: grey;
+}
+
+.total_score{
+    font-size: 14px;
+}
+
+.summary{
+    float: left;
+    height: 400px;
+    width: 300px;
+    margin-right: -15px;
+    box-shadow: 15px 15px 15px aliceblue;
+    border-radius: 0 25px 25px 0;
+}
+
+.reaction{
+    color: red;
+    background-color: rgb(248, 234, 234);
+    margin: 0 25px 10px 25px;
+    padding: 10px;
+    border-radius: 5px;
+    height: 50px;
+}
+
+.memory{
+    color: orange;
+    background-color: rgb(254, 248, 239);
+    margin: 0 25px 10px 25px;
+    padding: 10px;
+    border-radius: 5px;
+    height: 50px;
+}
+
+.verbal{
+    color: #0D98BA;
+    background-color: #c1d8dd;
+    margin: 0 25px 10px 25px;
+    padding: 10px;
+    border-radius: 5px;
+    height: 50px;
+}
+
+.visual{
+    color: darkblue;
+    background-color: rgb(168, 168, 244);
+    margin: 0 25px 10px 25px;
+    padding: 10px;
+    border-radius: 5px;
+    height: 50px;
+}
+
+.title_score{
+    float: right;
+    color: black;
+    margin-top: 8px;
+}
+
+.button_single{
+    color: white;
+    background-color: rgb(26, 26, 84);
+    width: 85%;
+    margin: 20px 0 0 20px;
+    padding: 10px;
+    border-radius: 25px;
+}
+
+.total_title_score{
+    color: gray;
+    float: right;
+}
+
+i{
+    margin: 10px;
+    float: inline-start;
+}
